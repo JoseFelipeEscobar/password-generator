@@ -1,0 +1,34 @@
+.slider-container {
+  display: flex;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.slider-container :first-child {
+  width: 30%;
+}
+
+.slider-option {
+  color: aqua !important;
+}
+
+.text-options p {
+  color: rgb(0, 0, 0);
+  font-family: "Rajdhani", sans-serif !important;
+}
+
+.text-options {
+  color: white;
+  font-family: "Rajdhani", sans-serif !important;
+}
+
+.ball-slide {
+  background-color: teal !important;
+  stroke: teal !important;
+}
+
+@media screen and (max-width: 600px) {
+  .slider-container {
+    flex-direction: column;
+  }
+}
